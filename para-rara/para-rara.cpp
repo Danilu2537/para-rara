@@ -14,18 +14,17 @@ int main() {
 		cout << endl;
 	}
 	cout << endl;
-	for (int i = 0; i < size; i++)
+	int arr1[size][size];
+	for (int i = 0, k = size-1; i < size; i++, k--)
 	{
-		int temp = arr[i][0];
-		for (int j = 0; j < size - 1; j++)
+		for (int j = 0; j < size; j++)
 		{
-			arr[i][j] = arr[i][j + 1];
+			arr1[i][j] = arr[j][k];
 		}
-		arr[i][size - 1] = temp;
 	}
 	for (int i = 0; i < size; i++) {
 		for (int j = 0; j < size; j++)
-			cout << arr[i][j] << " ";
+			cout << arr1[i][j] << " ";
 		cout << endl;
 	}
 	cout << endl;
