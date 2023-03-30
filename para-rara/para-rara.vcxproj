@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="para-rara.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\OneDrive\Рабочий стол\Снимок экрана 2023-03-30 181549.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
